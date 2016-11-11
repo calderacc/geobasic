@@ -2,7 +2,7 @@
 
 namespace Caldera\GeoBasic\Coord;
 
-class Coord
+class Coord implements CoordInterface
 {
     /** @var float $latitude */
     private $latitude;
