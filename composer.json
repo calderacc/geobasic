@@ -7,5 +7,10 @@
             "email": "malte@caldera.cc"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Caldera\\GeoBasic\\": "src/"
+        }
+    }
 }
