@@ -16,6 +16,16 @@ class Coord
         $this->longitude = $longitude;
     }
 
+    public function getLatitude()
+    {
+        return $this->latitude;
+    }
+
+    public function getLongitude()
+    {
+        return $this->longitude;
+    }
+    
     public function toArray(): array
     {
         return [
