@@ -5,7 +5,7 @@ namespace Caldera\GeoBasic\Bounds;
 use Caldera\GeoBasic\Coord\Coord;
 use Caldera\GeoBasic\Coord\CoordInterface;
 
-class Bounds
+class Bounds implements BoundsInterface
 {
     /** @var CoordInterface $northWest */
     protected $northWest;
