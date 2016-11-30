@@ -4,8 +4,8 @@ namespace Caldera\GeoBasic\Coord;
 
 interface CoordInterface
 {
-    public function getLatitude();
-    public function getLongitude();
+    public function getLatitude(): float;
+    public function getLongitude(): float;
 
     public function toArray(): array;
     public function toInversedArray(): array;

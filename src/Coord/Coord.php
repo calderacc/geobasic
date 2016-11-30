@@ -16,12 +16,12 @@ class Coord implements CoordInterface
         $this->longitude = $longitude;
     }
 
-    public function getLatitude()
+    public function getLatitude(): float
     {
         return $this->latitude;
     }
 
-    public function getLongitude()
+    public function getLongitude(): float
     {
         return $this->longitude;
     }
