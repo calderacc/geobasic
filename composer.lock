@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "cfa3fe9f2af36221df93a8daaf683d9e",
-    "content-hash": "70a28b896b050d43f0f6ba5590b4a673",
+    "hash": "731e00745d390ff8c615262c7fa698cb",
+    "content-hash": "d9090ab4f428b9697fdece2529c45652",
     "packages": [
         {
             "name": "doctrine/instantiator",
@@ -60,6 +60,51 @@
                 "instantiate"
             ],
             "time": "2015-06-14 21:17:01"
+        },
+        {
+            "name": "emcconville/google-map-polyline-encoding-tool",
+            "version": "v1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/emcconville/google-map-polyline-encoding-tool.git",
+                "reference": "dbf3816936620b88f0fc4000fddd94b5ce13eadb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/emcconville/google-map-polyline-encoding-tool/zipball/dbf3816936620b88f0fc4000fddd94b5ce13eadb",
+                "reference": "dbf3816936620b88f0fc4000fddd94b5ce13eadb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.1.*",
+                "satooshi/php-coveralls": "dev-master",
+                "squizlabs/php_codesniffer": "2.0.0a2"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/Polyline.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GNU"
+            ],
+            "authors": [
+                {
+                    "name": "Eric McConville",
+                    "email": "emcconville@emcconville.com"
+                }
+            ],
+            "description": "A simple class to handle polyline-encoding for Google Maps",
+            "keywords": [
+                "google",
+                "maps"
+            ],
+            "time": "2016-04-05 01:18:39"
         },
         {
             "name": "myclabs/deep-copy",
