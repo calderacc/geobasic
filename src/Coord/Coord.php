@@ -5,10 +5,10 @@ namespace Caldera\GeoBasic\Coord;
 class Coord implements CoordInterface
 {
     /** @var float $latitude */
-    private $latitude;
+    protected $latitude;
 
     /** @var float $longitude */
-    private $longitude;
+    protected $longitude;
 
     public function __construct(float $latitude, float $longitude)
     {
