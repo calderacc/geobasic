@@ -3,8 +3,9 @@
 namespace Caldera\GeoBasic\Test\Coord;
 
 use Caldera\GeoBasic\Coord\Coord;
+use PHPUnit\Framework\TestCase;
 
-class CoordTest extends \PHPUnit_Framework_TestCase
+class CoordTest extends TestCase
 {
     public function testCoord1()
     {

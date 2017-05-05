@@ -4,8 +4,9 @@ namespace Caldera\GeoBasic\Test\Coord;
 
 use Caldera\GeoBasic\Bounds\Bounds;
 use Caldera\GeoBasic\Coord\Coord;
+use PHPUnit\Framework\TestCase;
 
-class BoundsTest extends \PHPUnit_Framework_TestCase
+class BoundsTest extends TestCase
 {
     public function testBounds1()
     {

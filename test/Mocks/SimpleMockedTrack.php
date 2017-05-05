@@ -8,7 +8,7 @@ class SimpleMockedTrack implements TrackInterface
 {
     public function setPolyline(string $polyline): TrackInterface
     {
-        // TODO: Implement setPolyline() method.
+        return $this;
     }
 
     /**
