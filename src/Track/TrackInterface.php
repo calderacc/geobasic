@@ -1,6 +1,6 @@
 <?php
 
-namespace Caldera\GeoBasic\TrackInterface;
+namespace Caldera\GeoBasic\Track;
 
 interface TrackInterface
 {
