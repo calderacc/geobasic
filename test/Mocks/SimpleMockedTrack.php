@@ -1,6 +1,6 @@
 <?php
 
-namespace Caldera\GeoBasic\Tests\Mocks;
+namespace Caldera\GeoBasic\Test\Mocks;
 
 use Caldera\GeoBasic\TrackInterface\TrackInterface;
 

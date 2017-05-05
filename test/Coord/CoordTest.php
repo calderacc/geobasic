@@ -1,6 +1,6 @@
 <?php
 
-namespace Caldera\GeoBasic\Tests\Coord;
+namespace Caldera\GeoBasic\Test\Coord;
 
 use Caldera\GeoBasic\Coord\Coord;
 

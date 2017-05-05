@@ -14,7 +14,8 @@
     },
     "autoload": {
         "psr-4": {
-            "Caldera\\GeoBasic\\": "src/"
+            "Caldera\\GeoBasic\\": "src/",
+            "Caldera\\GeoBasic\\Test\\": "test/"
         }
     },
     "require-dev": {

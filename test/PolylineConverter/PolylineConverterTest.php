@@ -1,10 +1,10 @@
 <?php
 
-namespace Caldera\GeoBasic\Tests\PolylineConverter;
+namespace Caldera\GeoBasic\Test\PolylineConverter;
 
 use Caldera\GeoBasic\Coord\Coord;
 use Caldera\GeoBasic\PolylineConverter\PolylineConverter;
-use Caldera\GeoBasic\Tests\Mocks\SimpleMockedTrack;
+use Caldera\GeoBasic\Test\Mocks\SimpleMockedTrack;
 
 class PolylineConverterTest extends \PHPUnit_Framework_TestCase
 {
