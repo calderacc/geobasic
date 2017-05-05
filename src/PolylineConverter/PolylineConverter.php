@@ -3,7 +3,7 @@
 namespace Caldera\GeoBasic\PolylineConverter;
 
 use Caldera\GeoBasic\Coord\Coord;
-use Caldera\GeoBasic\TrackInterface\TrackInterface;
+use Caldera\GeoBasic\Track\TrackInterface;
 
 class PolylineConverter
 {
