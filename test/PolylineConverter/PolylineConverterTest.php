@@ -2,16 +2,17 @@
 
 namespace Caldera\GeoBasic\Test\PolylineConverter;
 
-use Caldera\GeoBasic\Coord\Coord;
-use Caldera\GeoBasic\PolylineConverter\PolylineConverter;
-use Test\Mocks\SimpleMockedTrack;
+use \Caldera\GeoBasic\Coord\Coord;
+use \Caldera\GeoBasic\PolylineConverter\PolylineConverter;
+use Caldera\GeoBasic\Track\Track;
 use PHPUnit\Framework\TestCase;
 
 class PolylineConverterTest extends TestCase
 {
     public function testPolylineConverter1()
     {
-        $mockedTrack = new SimpleMockedTrack();
+        $mockedTrack = new Track();
+        $mockedTrack->setPolyline('wrzeIuy~{@WdEmBrDmCvAwCuB_D}BaEyBy@yBHoG~@_HrAuItAeG`ByCt@a@`AlAxQv^{@nDwBjB');
 
         $actualList = PolylineConverter::getCoordList($mockedTrack);
 
