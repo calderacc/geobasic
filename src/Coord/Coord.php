@@ -1,14 +1,12 @@
-<?php
+<?php declare(strict_types=1);
 
 namespace Caldera\GeoBasic\Coord;
 
 class Coord implements CoordInterface
 {
-    /** @var float $latitude */
-    protected $latitude;
+    protected ?float $latitude = null;
 
-    /** @var float $longitude */
-    protected $longitude;
+    protected ?float $longitude = null;
 
     public function __construct(float $latitude = null, float $longitude = null)
     {

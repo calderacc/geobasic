@@ -1,10 +1,10 @@
-<?php
+<?php declare(strict_types=1);
 
 namespace Caldera\GeoBasic\Track;
 
 class Track implements TrackInterface
 {
-    protected $polyline;
+    protected ?string $polyline;
 
     public function getPolyline(): string
     {

@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1);
 
 namespace Caldera\GeoBasic\Bounds;
 
@@ -7,11 +7,9 @@ use Caldera\GeoBasic\Coord\CoordInterface;
 
 class Bounds implements BoundsInterface
 {
-    /** @var CoordInterface $northWest */
-    protected $northWest;
+    protected CoordInterface $northWest;
 
-    /** @var CoordInterface $southEast */
-    protected $southEast;
+    protected CoordInterface $southEast;
 
     public function __construct(CoordInterface $northWest, CoordInterface $southEast)
     {
